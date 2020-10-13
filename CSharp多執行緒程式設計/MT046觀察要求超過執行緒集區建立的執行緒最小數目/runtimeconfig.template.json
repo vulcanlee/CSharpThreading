@@ -1,0 +1,6 @@
+{
+  "configProperties": {
+    "System.Threading.ThreadPool.MinThreads": "8",
+    "System.Threading.ThreadPool.MaxThreads": "100"
+  }
+}

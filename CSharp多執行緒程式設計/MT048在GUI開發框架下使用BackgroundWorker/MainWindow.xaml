@@ -1,0 +1,17 @@
+﻿<Window x:Class="MT048在GUI開發框架下使用BackgroundWorker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MT048在GUI開發框架下使用BackgroundWorker"
+        mc:Ignorable="d"
+        Title="MT048在GUI開發框架下使用BackgroundWorker" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btn開始" Grid.Row="0" Content="開始" Click="btn開始_Click" />
+        <TextBlock x:Name="tbkMessage" Text="訊息" Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" FontSize="18.667" Foreground="Red" HorizontalAlignment="Center" VerticalAlignment="Center" />
+    </Grid>
+</Window>

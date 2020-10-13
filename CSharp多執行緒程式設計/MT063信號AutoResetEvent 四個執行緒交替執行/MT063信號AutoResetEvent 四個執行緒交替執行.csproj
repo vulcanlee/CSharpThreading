@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>MT063信號AutoResetEvent_四個執行緒交替執行</RootNamespace>
+  </PropertyGroup>
+
+</Project>

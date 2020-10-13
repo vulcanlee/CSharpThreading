@@ -1,0 +1,30 @@
+﻿<Window x:Class="MT039WPF同步內容運作機制.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MT039WPF同步內容運作機制"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="按鈕1" Grid.Row="0" Grid.Column="0" Click="按鈕1_Click">按鈕1</Button>
+        <Button x:Name="按鈕2" Grid.Row="0" Grid.Column="1" Click="按鈕2_Click" >按鈕2</Button>
+        <Button x:Name="按鈕3" Grid.Row="1" Grid.Column="0" Click="按鈕3_Click" >按鈕3</Button>
+
+        <TextBlock x:Name="Message"
+                   Grid.Row="2" Grid.ColumnSpan="2"
+                   FontSize="30" Foreground="Red"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   />
+    </Grid>
+</Window>
