@@ -73,7 +73,7 @@
 |MT069|非獨佔鎖定Interlocked||
 |MT070|非獨佔鎖定ReaderWriterLockSlim||
 |MT071|多執行緒與單一處理器核心||
-|MT072|||
+|MT072|確認了解 ThreadPool 的內部資訊的狀態||
 |MT073|||
 |MT074|||
 |MT075|||
