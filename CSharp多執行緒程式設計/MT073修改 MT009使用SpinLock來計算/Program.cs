@@ -21,7 +21,7 @@ namespace MT073修改_MT009使用SpinLock來計算
 
             thread1.Join(); thread2.Join(); stopwatch.Stop();
             Console.WriteLine($"執行遞增方法、遞減方法後，計數器的值為 {counter}");
-            Console.WriteLine($"MT009 花費時間 {stopwatch.ElapsedMilliseconds} ms");
+            Console.WriteLine($"MT073 花費時間 {stopwatch.ElapsedMilliseconds} ms");
 
             Console.WriteLine("Press any key for continuing...");
             Console.ReadKey();
