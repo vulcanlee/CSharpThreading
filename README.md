@@ -74,7 +74,7 @@
 |MT070|非獨佔鎖定ReaderWriterLockSlim||
 |MT071|多執行緒與單一處理器核心||
 |MT072|確認了解 ThreadPool 的內部資訊的狀態||
-|MT073|||
+|MT073|修改 MT009 ，使用 SpinLock 來計算||
 |MT074|||
 |MT075|||
 |MT076|||

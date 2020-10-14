@@ -145,7 +145,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT070非獨佔鎖定ReaderW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT071多執行緒與單一處理器核心", "MT071多執行緒與單一處理器核心\MT071多執行緒與單一處理器核心.csproj", "{8F855B05-48DD-4D41-8D0A-262EDC2FA547}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT072確認了解ThreadPool的內部資訊的狀態", "MT072確認了解ThreadPool的內部資訊的狀態\MT072確認了解ThreadPool的內部資訊的狀態.csproj", "{0CF3689F-91F0-415E-8140-EE3E3113A2C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT072確認了解ThreadPool的內部資訊的狀態", "MT072確認了解ThreadPool的內部資訊的狀態\MT072確認了解ThreadPool的內部資訊的狀態.csproj", "{0CF3689F-91F0-415E-8140-EE3E3113A2C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT073修改 MT009使用SpinLock來計算", "MT073修改 MT009使用SpinLock來計算\MT073修改 MT009使用SpinLock來計算.csproj", "{AB771B24-4558-4471-A2C6-B9ABBF3C1A9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -441,6 +443,10 @@ Global
 		{0CF3689F-91F0-415E-8140-EE3E3113A2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CF3689F-91F0-415E-8140-EE3E3113A2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CF3689F-91F0-415E-8140-EE3E3113A2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB771B24-4558-4471-A2C6-B9ABBF3C1A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB771B24-4558-4471-A2C6-B9ABBF3C1A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB771B24-4558-4471-A2C6-B9ABBF3C1A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB771B24-4558-4471-A2C6-B9ABBF3C1A9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
