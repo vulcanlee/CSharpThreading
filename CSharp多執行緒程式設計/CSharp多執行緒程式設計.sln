@@ -147,9 +147,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT071多執行緒與單一�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT072確認了解ThreadPool的內部資訊的狀態", "MT072確認了解ThreadPool的內部資訊的狀態\MT072確認了解ThreadPool的內部資訊的狀態.csproj", "{0CF3689F-91F0-415E-8140-EE3E3113A2C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT073修改 MT009使用SpinLock來計算", "MT073修改 MT009使用SpinLock來計算\MT073修改 MT009使用SpinLock來計算.csproj", "{AB771B24-4558-4471-A2C6-B9ABBF3C1A9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT073修改 MT009使用SpinLock來計算", "MT073修改 MT009使用SpinLock來計算\MT073修改 MT009使用SpinLock來計算.csproj", "{AB771B24-4558-4471-A2C6-B9ABBF3C1A9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT074Lock與SpinLock的差異觀察系統狀態值", "MT074Lock與SpinLock的差異觀察系統狀態值\MT074Lock與SpinLock的差異觀察系統狀態值.csproj", "{90B4BB8C-12C4-40CD-A2A6-866093F6E068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT074Lock與SpinLock的差異觀察系統狀態值", "MT074Lock與SpinLock的差異觀察系統狀態值\MT074Lock與SpinLock的差異觀察系統狀態值.csproj", "{90B4BB8C-12C4-40CD-A2A6-866093F6E068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT075同步處理的效能測試", "MT075同步處理的效能測試\MT075同步處理的效能測試.csproj", "{C3178C10-8290-4262-9E98-5DCA263CFC41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -453,6 +455,10 @@ Global
 		{90B4BB8C-12C4-40CD-A2A6-866093F6E068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90B4BB8C-12C4-40CD-A2A6-866093F6E068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90B4BB8C-12C4-40CD-A2A6-866093F6E068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3178C10-8290-4262-9E98-5DCA263CFC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3178C10-8290-4262-9E98-5DCA263CFC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3178C10-8290-4262-9E98-5DCA263CFC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3178C10-8290-4262-9E98-5DCA263CFC41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
