@@ -151,7 +151,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT073修改 MT009使用Spin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT074Lock與SpinLock的差異觀察系統狀態值", "MT074Lock與SpinLock的差異觀察系統狀態值\MT074Lock與SpinLock的差異觀察系統狀態值.csproj", "{90B4BB8C-12C4-40CD-A2A6-866093F6E068}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT075同步處理的效能測試", "MT075同步處理的效能測試\MT075同步處理的效能測試.csproj", "{C3178C10-8290-4262-9E98-5DCA263CFC41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT075同步處理的效能測試", "MT075同步處理的效能測試\MT075同步處理的效能測試.csproj", "{C3178C10-8290-4262-9E98-5DCA263CFC41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT076體驗執行緒集區的參數調整意義", "MT076體驗執行緒集區的參數調整意義\MT076體驗執行緒集區的參數調整意義.csproj", "{B53BD0C3-21FD-4837-B360-143FBD37F889}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -459,6 +461,10 @@ Global
 		{C3178C10-8290-4262-9E98-5DCA263CFC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3178C10-8290-4262-9E98-5DCA263CFC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3178C10-8290-4262-9E98-5DCA263CFC41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53BD0C3-21FD-4837-B360-143FBD37F889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53BD0C3-21FD-4837-B360-143FBD37F889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53BD0C3-21FD-4837-B360-143FBD37F889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53BD0C3-21FD-4837-B360-143FBD37F889}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
