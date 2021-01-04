@@ -35,7 +35,7 @@ namespace MT073修改_MT009使用SpinLock來計算
                 lockTaken = false;
                 spinLock.Enter(ref lockTaken);
                 counter--;
-                if (lockTaken) spinLock.Exit();
+                if (lockTaken) spinLock.Exit(false);
             }
         }
 
@@ -47,7 +47,7 @@ namespace MT073修改_MT009使用SpinLock來計算
                 lockTaken = false;
                 spinLock.Enter(ref lockTaken);
                 counter++;
-                if (lockTaken) spinLock.Exit();
+                if (lockTaken) spinLock.Exit(false);
             }
         }
     }
