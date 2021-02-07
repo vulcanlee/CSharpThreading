@@ -78,8 +78,8 @@
 |MT074|Lock 與 SpinLock 的差異，觀察系統狀態值||
 |MT075|同步處理的效能測試||
 |MT076|體驗執行緒集區的參數調整意義||
-|MT077|||
-|MT078|||
+|MT077|ThreadStatic與ThreadLocal 預設值||
+|MT078|體驗執行緒集區的 Worker / IOCP Thread||
 |MT079|||
 |MT080|||
 |MT081|||
