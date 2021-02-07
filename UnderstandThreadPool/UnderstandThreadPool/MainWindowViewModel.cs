@@ -155,7 +155,8 @@ namespace UnderstandThreadPool
             //var str = new HttpClient().GetStringAsync("https://contososyncfusion.azurewebsites.net/").Result;
 
             // 非同步作業完成後的強制休息
-            Thread.Sleep(IocpThreadSleep);
+            Random random = new Random();
+            Thread.Sleep(IocpThreadSleep+ random.Next(500));
             return str;
         }
         public void PrintSummaryThreadCounts()
