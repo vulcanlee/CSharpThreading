@@ -80,7 +80,7 @@
 |MT076|體驗執行緒集區的參數調整意義||
 |MT077|ThreadStatic與ThreadLocal 預設值||
 |MT078|體驗執行緒集區的 Worker / IOCP Thread||
-|MT079|||
+|MT079|了解執行緒集區的執行緒使用情況||
 |MT080|||
 |MT081|||
 |MT082|||
@@ -91,7 +91,7 @@
 |MT087|||
 |MT088|||
 |MT089|||
-||||
+|UnderstandThreadPool|執行緒集區的應用展示||
 ||||
 ||||
 ||||
