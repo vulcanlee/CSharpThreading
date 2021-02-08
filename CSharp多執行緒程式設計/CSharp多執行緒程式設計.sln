@@ -161,6 +161,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT078體驗執行緒集區�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT079了解執行緒集區的執行緒使用情況", "MT079了解執行緒集區的執行緒使用情況\MT079了解執行緒集區的執行緒使用情況.csproj", "{9A1B1862-80DD-4B5A-87B9-4ACD378A0F99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT080了解執行緒集區的執行緒使用情況Console", "MT080了解執行緒集區的執行緒使用情況Console\MT080了解執行緒集區的執行緒使用情況Console.csproj", "{B142935B-CE40-44BE-B795-ABB340E9EEAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -483,6 +485,10 @@ Global
 		{9A1B1862-80DD-4B5A-87B9-4ACD378A0F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A1B1862-80DD-4B5A-87B9-4ACD378A0F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A1B1862-80DD-4B5A-87B9-4ACD378A0F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B142935B-CE40-44BE-B795-ABB340E9EEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B142935B-CE40-44BE-B795-ABB340E9EEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B142935B-CE40-44BE-B795-ABB340E9EEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B142935B-CE40-44BE-B795-ABB340E9EEAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

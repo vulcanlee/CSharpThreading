@@ -81,7 +81,7 @@
 |MT077|ThreadStatic與ThreadLocal 預設值||
 |MT078|體驗執行緒集區的 Worker / IOCP Thread||
 |MT079|了解執行緒集區的執行緒使用情況||
-|MT080|||
+|MT080|了解執行緒集區的執行緒使用情況Console||
 |MT081|||
 |MT082|||
 |MT083|||
