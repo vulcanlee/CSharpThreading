@@ -159,9 +159,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT077ThreadStatic與ThreadL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT078體驗執行緒集區的WorkerIOCPThread", "MT078體驗執行緒集區的WorkerIOCPThread\MT078體驗執行緒集區的WorkerIOCPThread.csproj", "{D98E2354-4A1E-462C-B478-42EBB1BAD892}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT079了解執行緒集區的執行緒使用情況", "MT079了解執行緒集區的執行緒使用情況\MT079了解執行緒集區的執行緒使用情況.csproj", "{9A1B1862-80DD-4B5A-87B9-4ACD378A0F99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT079了解執行緒集區的執行緒使用情況", "MT079了解執行緒集區的執行緒使用情況\MT079了解執行緒集區的執行緒使用情況.csproj", "{9A1B1862-80DD-4B5A-87B9-4ACD378A0F99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT080了解執行緒集區的執行緒使用情況Console", "MT080了解執行緒集區的執行緒使用情況Console\MT080了解執行緒集區的執行緒使用情況Console.csproj", "{B142935B-CE40-44BE-B795-ABB340E9EEAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT080了解執行緒集區的執行緒使用情況Console", "MT080了解執行緒集區的執行緒使用情況Console\MT080了解執行緒集區的執行緒使用情況Console.csproj", "{B142935B-CE40-44BE-B795-ABB340E9EEAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT081當執行緒集區要服務的數量底大最大上限", "MT081當執行緒集區要服務的數量底大最大上限\MT081當執行緒集區要服務的數量底大最大上限.csproj", "{5A2A052B-4636-4926-A82A-FA3427B2A886}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -489,6 +491,10 @@ Global
 		{B142935B-CE40-44BE-B795-ABB340E9EEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B142935B-CE40-44BE-B795-ABB340E9EEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B142935B-CE40-44BE-B795-ABB340E9EEAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2A052B-4636-4926-A82A-FA3427B2A886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2A052B-4636-4926-A82A-FA3427B2A886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2A052B-4636-4926-A82A-FA3427B2A886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2A052B-4636-4926-A82A-FA3427B2A886}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
