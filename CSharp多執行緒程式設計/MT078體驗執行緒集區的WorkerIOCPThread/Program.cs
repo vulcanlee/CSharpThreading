@@ -10,7 +10,7 @@ namespace MT078體驗執行緒集區的WorkerIOCPThread
 {
     class Program
     {
-        static int loopCount = 30;
+        static int loopCount = 8;
         static int workThreadSleep = 0;
         static int ioThreadSleep = 5000;
         static int monitorThreadUsageSleep = 1000;
