@@ -163,7 +163,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT079了解執行緒集區�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT080了解執行緒集區的執行緒使用情況Console", "MT080了解執行緒集區的執行緒使用情況Console\MT080了解執行緒集區的執行緒使用情況Console.csproj", "{B142935B-CE40-44BE-B795-ABB340E9EEAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT081當執行緒集區要服務的數量底大最大上限", "MT081當執行緒集區要服務的數量底大最大上限\MT081當執行緒集區要服務的數量底大最大上限.csproj", "{5A2A052B-4636-4926-A82A-FA3427B2A886}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT081當執行緒集區要服務的數量底大最大上限", "MT081當執行緒集區要服務的數量底大最大上限\MT081當執行緒集區要服務的數量底大最大上限.csproj", "{5A2A052B-4636-4926-A82A-FA3427B2A886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT082當WebClient完成後,會用何種執行緒為 用 Task", "MT082當WebClient完成後,會用何種執行緒為 用 Task\MT082當WebClient完成後,會用何種執行緒為 用 Task.csproj", "{E570F009-2818-489E-B001-5608A1A1D663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT083當HttpClient完成後,會用何種執行緒為", "MT083當HttpClient完成後,會用何種執行緒為\MT083當HttpClient完成後,會用何種執行緒為.csproj", "{8148F392-0E45-4696-90E0-1FB61E2D5022}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -495,6 +499,14 @@ Global
 		{5A2A052B-4636-4926-A82A-FA3427B2A886}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A2A052B-4636-4926-A82A-FA3427B2A886}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A2A052B-4636-4926-A82A-FA3427B2A886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E570F009-2818-489E-B001-5608A1A1D663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E570F009-2818-489E-B001-5608A1A1D663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E570F009-2818-489E-B001-5608A1A1D663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E570F009-2818-489E-B001-5608A1A1D663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8148F392-0E45-4696-90E0-1FB61E2D5022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8148F392-0E45-4696-90E0-1FB61E2D5022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8148F392-0E45-4696-90E0-1FB61E2D5022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8148F392-0E45-4696-90E0-1FB61E2D5022}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
