@@ -2,15 +2,15 @@
 //#define HttpClientWait
 //#define ReadAllTextAsync
 //#define FileOpen
-#define FileStream
+//#define FileStream
 //#define TaskDelay
+#define EntityFrameworkCore
 
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
 using System.Linq;
-using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -28,6 +28,15 @@ namespace MT078體驗執行緒集區的WorkerIOCPThread
             //SetThreadPoolConfiguration();
             PrintThreadPoolConfiguration();
             PrintSummaryThreadCounts();
+
+#if EntityFrameworkCore
+            #region 適用於 Code First ，刪除資料庫與移除資料庫
+            AsyncDBContext context = new AsyncDBContext();
+            context.Database.EnsureDeleted();
+            context.Database.EnsureCreated();
+            #endregion
+            PrintSummaryThreadCounts();
+#endif
 
             var tasks = new List<Task<string>>();
 
@@ -79,6 +88,28 @@ namespace MT078體驗執行緒集區的WorkerIOCPThread
                 await SourceStream.ReadAsync(result, 0, (int)SourceStream.Length);
             }
             var str = System.Text.Encoding.ASCII.GetString(result);
+#elif EntityFrameworkCore
+            string str = "Async Result";
+            AsyncDBContext context = new AsyncDBContext();
+            List<MyUser> myUsers = new List<MyUser>();
+            for (int i = 0; i < 10; i++)
+            {
+                myUsers.Add(new MyUser()
+                {
+                    Account = $"Account{Thread.CurrentThread.ManagedThreadId}-{i}",
+                    Name = $"Name{Thread.CurrentThread.ManagedThreadId}-{i}",
+                    Password = $"Password{Thread.CurrentThread.ManagedThreadId}-{i}",
+                });
+            }
+            try
+            {
+                context.AddRange(myUsers);
+                await context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 #elif TaskDelay
             string str = "Async Result";
             await Task.Delay(500);
@@ -140,5 +171,44 @@ namespace MT078體驗執行緒集區的WorkerIOCPThread
             #endregion
 
         }
+    }
+    public partial class AsyncDBContext : DbContext
+    {
+        public AsyncDBContext()
+        {
+        }
+
+        public AsyncDBContext(DbContextOptions<AsyncDBContext> options)
+            : base(options)
+        {
+        }
+
+        public virtual DbSet<MyUser> MyUser { get; set; }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=AsyncDBTest");
+            }
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            OnModelCreatingPartial(modelBuilder);
+        }
+
+        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+    }
+    public class MyUser
+    {
+        public MyUser()
+        {
+        }
+
+        public int Id { get; set; }
+        public string Account { get; set; }
+        public string Password { get; set; }
+        public string Name { get; set; }
     }
 }
