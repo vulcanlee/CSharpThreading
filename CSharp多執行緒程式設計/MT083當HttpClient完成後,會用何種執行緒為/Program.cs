@@ -37,7 +37,7 @@ namespace MT083當HttpClient完成後_會用何種執行緒為
 
             Thread.Sleep(500);
             Console.WriteLine(); Console.WriteLine();
-            Console.WriteLine("已經完成 WebClient 呼叫");
+            Console.WriteLine("已經完成 HttpClient 呼叫");
             int threadId = Thread.CurrentThread.ManagedThreadId;
             if (ThreadsOnThreadPool.ContainsKey(threadId))
             {

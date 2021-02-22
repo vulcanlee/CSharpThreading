@@ -2,6 +2,7 @@
 using System.Collections.Concurrent;
 using System.Net;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace MT082當WebClient完成後_會用何種執行緒為_用_Task
 {
@@ -16,7 +17,7 @@ namespace MT082當WebClient完成後_會用何種執行緒為_用_Task
         public static int AvailableWorkerThreads = 0;
         public static int MaxRunningWorkThreads = 0;
         public static string APIEndPoint = "https://lobworkshop.azurewebsites.net/api/RemoteSource/AddSync/8/9/2000";
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
 
             ThreadPoolInformation threadPoolInformation = new ThreadPoolInformation();
@@ -31,24 +32,8 @@ namespace MT082當WebClient完成後_會用何種執行緒為_用_Task
             ThreadPoolInformation threadPoolCurrentInformation = threadPoolInformation.Clone();
             ShowCurrentThreadUsage(threadPoolInformation, threadPoolCurrentInformation);
             WebClient webClient = new WebClient();
-            webClient.DownloadStringCompleted += (s, e) =>
-            {
-                Thread.Sleep(500);
-                Console.WriteLine(); Console.WriteLine();
-                Console.WriteLine("已經完成 WebClient 呼叫");
-                int threadId = Thread.CurrentThread.ManagedThreadId;
-                if (ThreadsOnThreadPool.ContainsKey(threadId))
-                {
-                    Console.WriteLine(">>>>   該執行緒為執行緒集區內的 工作執行緒 Worker Thread");
-                }
-                else
-                {
-                    Console.WriteLine("}}}}}   該執行緒為執行緒集區內的 工作執行緒 I/O Thread");
-                }
 
-                ShowCurrentThreadUsage(threadPoolInformation, threadPoolCurrentInformation);
-            };
-            webClient.DownloadStringTaskAsync(new Uri(APIEndPoint));
+            await webClient.DownloadStringTaskAsync(new Uri(APIEndPoint));
 
             Thread.Sleep(500);
             Console.WriteLine(); Console.WriteLine();

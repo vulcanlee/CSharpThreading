@@ -1,6 +1,14 @@
-﻿using System;
+﻿//#define HttpClientAwait
+//#define HttpClientWait
+//#define ReadAllTextAsync
+//#define FileOpen
+#define FileStream
+//#define TaskDelay
+
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Threading;
@@ -44,35 +52,37 @@ namespace MT078體驗執行緒集區的WorkerIOCPThread
         }
         static async Task<string> IssueAsynchronousRequestAsync()
         {
+#if HttpClientAwait
             // https://source.dot.net/#System.Net.Http/System/Net/Http/HttpClient.cs,6b7ffca539f4a368
             var str = await new HttpClient().GetStringAsync("https://contososyncfusion.azurewebsites.net/");
-
-            //// https://source.dot.net/#System.IO.FileSystem/System/IO/File.cs,321993cd4729625c
-            //var str = await File.ReadAllTextAsync("ConsoleApp1.runtimeconfig.json");
-
-            //string filename = @"ConsoleApp1.runtimeconfig.json";
-            //byte[] result;
-            //using (FileStream SourceStream = File.Open(filename, FileMode.Open))
-            //{
-            //    result = new byte[SourceStream.Length];
-            //    await SourceStream.ReadAsync(result, 0, (int)SourceStream.Length);
-            //}
-            //var str = System.Text.Encoding.ASCII.GetString(result);
-
-            //// https://source.dot.net/#System.Private.CoreLib/FileStream.cs,2c203718e302b739
-            //byte[] result;
-            //using (FileStream SourceStream = new FileStream("ConsoleApp1.runtimeconfig.json", FileMode.Open,
-            //FileAccess.Read, FileShare.None, 4096, true))
-            //{
-            //    result = new byte[SourceStream.Length];
-            //    await SourceStream.ReadAsync(result, 0, (int)SourceStream.Length);
-            //}
-            //var str = System.Text.Encoding.ASCII.GetString(result);
-
-            //string str = "Async Result";
-            //await Task.Delay(500);
-
-            //var str = new HttpClient().GetStringAsync("https://contososyncfusion.azurewebsites.net/").Result;
+#elif HttpClientWait
+            var str = new HttpClient().GetStringAsync("https://contososyncfusion.azurewebsites.net/").Result;
+#elif ReadAllTextAsync
+            // https://source.dot.net/#System.IO.FileSystem/System/IO/File.cs,321993cd4729625c
+            var str = await File.ReadAllTextAsync("MT078體驗執行緒集區的WorkerIOCPThread.deps.json");
+#elif FileOpen
+            string filename = @"MT078體驗執行緒集區的WorkerIOCPThread.deps.json";
+            byte[] result;
+            using (FileStream SourceStream = File.Open(filename, FileMode.Open, FileAccess.Read, FileShare.Read))
+            {
+                result = new byte[SourceStream.Length];
+                await SourceStream.ReadAsync(result, 0, (int)SourceStream.Length);
+            }
+            var str = System.Text.Encoding.ASCII.GetString(result);
+#elif FileStream
+            // https://source.dot.net/#System.Private.CoreLib/FileStream.cs,2c203718e302b739
+            byte[] result;
+            using (FileStream SourceStream = new FileStream("MT078體驗執行緒集區的WorkerIOCPThread.deps.json",
+                FileMode.Open, FileAccess.Read, FileShare.Read, 4096, true))
+            {
+                result = new byte[SourceStream.Length];
+                await SourceStream.ReadAsync(result, 0, (int)SourceStream.Length);
+            }
+            var str = System.Text.Encoding.ASCII.GetString(result);
+#elif TaskDelay
+            string str = "Async Result";
+            await Task.Delay(500);
+#endif
 
             // 非同步作業完成後的強制休息
             Thread.Sleep(ioThreadSleep);
