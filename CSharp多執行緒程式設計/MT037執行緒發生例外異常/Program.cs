@@ -20,12 +20,12 @@ namespace MT037執行緒發生例外異常
                 try
                 {
                     Thread.Sleep(1000);
-                    Console.WriteLine("執行緒2發生例外異常...");
+                    Console.WriteLine("執行緒1發生例外異常...");
                     throw new OverflowException();
                 }
                 catch (OverflowException)
                 {
-                    Console.WriteLine("執行緒2發生 當檢查內容中的算數、轉型 (Casting) 或轉換作業發生溢位時所擲回的例外狀況");
+                    Console.WriteLine("執行緒1發生 當檢查內容中的算數、轉型 (Casting) 或轉換作業發生溢位時所擲回的例外狀況");
                 }
                 finally
                 {
@@ -36,14 +36,14 @@ namespace MT037執行緒發生例外異常
             Thread thread2 = new Thread(() =>
             {
                 Thread.Sleep(2000);
-                Console.WriteLine("執行緒3發生例外異常...");
+                Console.WriteLine("執行緒2發生例外異常...");
                 throw new FormatException();
             });
             thread2.Name = "執行緒2";
             Thread thread3 = new Thread(() =>
             {
                 Thread.Sleep(3000);
-                Console.WriteLine("執行緒4發生例外異常...");
+                Console.WriteLine("執行緒3發生例外異常...");
                 throw new Exception("自訂異常");
             });
             thread3.Name = "執行緒3";

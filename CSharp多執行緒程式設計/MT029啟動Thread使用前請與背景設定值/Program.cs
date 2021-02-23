@@ -50,6 +50,7 @@ namespace MT029啟動Thread使用前請與背景設定值
             // 在底下主執行緒程式碼執行完畢後，由於還有一個前景執行緒 foregroundThread
             // 因此，等到 foregroundThread 執行完畢後，不管背景執行緒是否已經執行完畢，
             // 會將所有背景執行緒移除掉
+            foregroundThread.Join();
             Console.WriteLine("主執行緒要結束執行了");
         }
     }
