@@ -177,6 +177,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "非同步工作Task", "非�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT085建立和起始有參數非同步工作", "MT085建立和起始有參數非同步工作\MT085建立和起始有參數非同步工作.csproj", "{36329CCE-2E4B-497F-ADBE-D6B8EC11613C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT086利用TAP工作建立大量並行工作練習", "MT086利用TAP工作建立大量並行工作練習\MT086利用TAP工作建立大量並行工作練習.csproj", "{7085D960-AEC3-4BC5-B851-74C7043B66D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -523,6 +525,10 @@ Global
 		{36329CCE-2E4B-497F-ADBE-D6B8EC11613C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36329CCE-2E4B-497F-ADBE-D6B8EC11613C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36329CCE-2E4B-497F-ADBE-D6B8EC11613C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7085D960-AEC3-4BC5-B851-74C7043B66D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7085D960-AEC3-4BC5-B851-74C7043B66D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7085D960-AEC3-4BC5-B851-74C7043B66D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7085D960-AEC3-4BC5-B851-74C7043B66D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -613,6 +619,7 @@ Global
 		{8148F392-0E45-4696-90E0-1FB61E2D5022} = {FD43BBB5-01EB-48E4-88F8-821E880459A7}
 		{12D97F95-CE59-467C-9C9A-93A0429021AE} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{36329CCE-2E4B-497F-ADBE-D6B8EC11613C} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
+		{7085D960-AEC3-4BC5-B851-74C7043B66D7} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6068656C-6ABA-45F1-B3C4-F37DCA05C2CD}
