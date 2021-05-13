@@ -179,9 +179,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT085建立和起始有參�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT086利用TAP工作建立大量並行工作練習", "MT086利用TAP工作建立大量並行工作練習\MT086利用TAP工作建立大量並行工作練習.csproj", "{7085D960-AEC3-4BC5-B851-74C7043B66D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT087了解各種委派類型工作物件的狀態列舉值變化情形", "MT087了解各種委派類型工作物件的狀態列舉值變化情形\MT087了解各種委派類型工作物件的狀態列舉值變化情形.csproj", "{8A8B2AB2-B266-4F54-B508-78045693BDC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT087了解各種委派類型工作物件的狀態列舉值變化情形", "MT087了解各種委派類型工作物件的狀態列舉值變化情形\MT087了解各種委派類型工作物件的狀態列舉值變化情形.csproj", "{8A8B2AB2-B266-4F54-B508-78045693BDC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT088了解各種承諾類型工作物件的狀態列舉值變化情形", "MT088了解各種承諾類型工作物件的狀態列舉值變化情形\MT088了解各種承諾類型工作物件的狀態列舉值變化情形.csproj", "{B601C310-8566-41AD-AECC-23F4C72398FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT088了解各種承諾類型工作物件的狀態列舉值變化情形", "MT088了解各種承諾類型工作物件的狀態列舉值變化情形\MT088了解各種承諾類型工作物件的狀態列舉值變化情形.csproj", "{B601C310-8566-41AD-AECC-23F4C72398FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT089檢查要求失敗的工作", "MT089檢查要求失敗的工作\MT089檢查要求失敗的工作.csproj", "{C6246036-A30E-4DEF-8900-E1A206D48FC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -541,6 +543,10 @@ Global
 		{B601C310-8566-41AD-AECC-23F4C72398FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B601C310-8566-41AD-AECC-23F4C72398FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B601C310-8566-41AD-AECC-23F4C72398FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6246036-A30E-4DEF-8900-E1A206D48FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6246036-A30E-4DEF-8900-E1A206D48FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6246036-A30E-4DEF-8900-E1A206D48FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6246036-A30E-4DEF-8900-E1A206D48FC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -634,6 +640,7 @@ Global
 		{7085D960-AEC3-4BC5-B851-74C7043B66D7} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{8A8B2AB2-B266-4F54-B508-78045693BDC1} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{B601C310-8566-41AD-AECC-23F4C72398FB} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
+		{C6246036-A30E-4DEF-8900-E1A206D48FC5} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6068656C-6ABA-45F1-B3C4-F37DCA05C2CD}
