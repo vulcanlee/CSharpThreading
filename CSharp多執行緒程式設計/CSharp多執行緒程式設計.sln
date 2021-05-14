@@ -191,6 +191,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "執行緒Thread 快速入�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT091等候非同步工作完成範例", "MT091等候非同步工作完成範例\MT091等候非同步工作完成範例.csproj", "{9605E52F-5693-4041-B942-B2FDAFBE008C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT092Task.WaitAll，等待所有工作 Task 物件完成執行", "MT092Task.WaitAll，等待所有工作 Task 物件完成執行\MT092Task.WaitAll，等待所有工作 Task 物件完成執行.csproj", "{9487BA21-7D0F-427F-B862-B6B6C0294378}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -561,6 +563,10 @@ Global
 		{9605E52F-5693-4041-B942-B2FDAFBE008C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9605E52F-5693-4041-B942-B2FDAFBE008C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9605E52F-5693-4041-B942-B2FDAFBE008C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9487BA21-7D0F-427F-B862-B6B6C0294378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9487BA21-7D0F-427F-B862-B6B6C0294378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9487BA21-7D0F-427F-B862-B6B6C0294378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9487BA21-7D0F-427F-B862-B6B6C0294378}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -657,6 +663,7 @@ Global
 		{C6246036-A30E-4DEF-8900-E1A206D48FC5} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{0EF36222-66FD-4ACF-A280-CCDE493CD304} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{9605E52F-5693-4041-B942-B2FDAFBE008C} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
+		{9487BA21-7D0F-427F-B862-B6B6C0294378} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6068656C-6ABA-45F1-B3C4-F37DCA05C2CD}
