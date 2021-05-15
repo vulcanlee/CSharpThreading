@@ -199,6 +199,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT094Task.Run與Task.Factor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT095Task.WhenAll，等候所有工作 Task 物件完成執行", "MT095Task.WhenAll，等候所有工作 Task 物件完成執行\MT095Task.WhenAll，等候所有工作 Task 物件完成執行.csproj", "{8BAEF59C-3260-418B-825E-6512B4939474}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT096Task.WhenAny，等候任一工作 Task 物件完成執行", "MT096Task.WhenAny，等候任一工作 Task 物件完成執行\MT096Task.WhenAny，等候任一工作 Task 物件完成執行.csproj", "{17E5FDC3-EBAA-476C-BAB4-77341BC601E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -585,6 +587,10 @@ Global
 		{8BAEF59C-3260-418B-825E-6512B4939474}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BAEF59C-3260-418B-825E-6512B4939474}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BAEF59C-3260-418B-825E-6512B4939474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E5FDC3-EBAA-476C-BAB4-77341BC601E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E5FDC3-EBAA-476C-BAB4-77341BC601E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E5FDC3-EBAA-476C-BAB4-77341BC601E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E5FDC3-EBAA-476C-BAB4-77341BC601E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -685,6 +691,7 @@ Global
 		{18187D2E-97EA-47A2-8E24-AB4F517CE747} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{8B740FC2-5B9D-481F-AE0E-38E7D08DD371} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{8BAEF59C-3260-418B-825E-6512B4939474} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
+		{17E5FDC3-EBAA-476C-BAB4-77341BC601E6} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6068656C-6ABA-45F1-B3C4-F37DCA05C2CD}
