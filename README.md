@@ -95,7 +95,7 @@
 |MT091|等候非同步工作完成範例||
 |MT092|Task.WaitAll，等待所有工作 Task 物件完成執行||
 |MT093|Task.WaitAny，等候任一工作 Task 物件完成執行||
-|MT094|||
+|MT094|Task.Run 與 Task.Factory.StartNew 差異(非同步委派)||
 |MT095|||
 |MT096|||
 |MT097|||
