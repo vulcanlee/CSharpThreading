@@ -98,8 +98,8 @@
 |MT094|Task.Run 與 Task.Factory.StartNew 差異(非同步委派)||
 |MT095|Task.WhenAll，等候所有工作 Task 物件完成執行||
 |MT096|Task.WhenAny，等候任一工作 Task 物件完成執行||
-|MT097|||
-|MT098|||
+|MT097|同時呼叫多個WebAPI並取得計算結果練習-WhenAll||
+|MT098|同時呼叫多個WebAPI並取得計算結果練習-WhenAny||
 |MT099|||
 |MT100|||
 |MT101|||

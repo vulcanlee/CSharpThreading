@@ -195,11 +195,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT092Task.WaitAll，等待�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT093Task.WaitAny，等候任一工作 Task 物件完成執行", "MT093Task.WaitAny，等候任一工作 Task 物件完成執行\MT093Task.WaitAny，等候任一工作 Task 物件完成執行.csproj", "{18187D2E-97EA-47A2-8E24-AB4F517CE747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT094Task.Run與Task.Factory.StartNew差異(非同步委派)", "MT094Task.Run與Task.Factory.StartNew差異\MT094Task.Run與Task.Factory.StartNew差異(非同步委派).csproj", "{8B740FC2-5B9D-481F-AE0E-38E7D08DD371}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT094Task.Run與Task.Factory.StartNew差異(非同步委派)", "MT094Task.Run與Task.Factory.StartNew差異\MT094Task.Run與Task.Factory.StartNew差異(非同步委派).csproj", "{8B740FC2-5B9D-481F-AE0E-38E7D08DD371}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT095Task.WhenAll，等候所有工作 Task 物件完成執行", "MT095Task.WhenAll，等候所有工作 Task 物件完成執行\MT095Task.WhenAll，等候所有工作 Task 物件完成執行.csproj", "{8BAEF59C-3260-418B-825E-6512B4939474}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT095Task.WhenAll，等候所有工作 Task 物件完成執行", "MT095Task.WhenAll，等候所有工作 Task 物件完成執行\MT095Task.WhenAll，等候所有工作 Task 物件完成執行.csproj", "{8BAEF59C-3260-418B-825E-6512B4939474}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT096Task.WhenAny，等候任一工作 Task 物件完成執行", "MT096Task.WhenAny，等候任一工作 Task 物件完成執行\MT096Task.WhenAny，等候任一工作 Task 物件完成執行.csproj", "{17E5FDC3-EBAA-476C-BAB4-77341BC601E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT096Task.WhenAny，等候任一工作 Task 物件完成執行", "MT096Task.WhenAny，等候任一工作 Task 物件完成執行\MT096Task.WhenAny，等候任一工作 Task 物件完成執行.csproj", "{17E5FDC3-EBAA-476C-BAB4-77341BC601E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT097同時呼叫多個WebAPI並取得計算結果練習-WhenAll", "MT097同時呼叫多個WebAPI並取得計算結果練習-WhenAll\MT097同時呼叫多個WebAPI並取得計算結果練習-WhenAll.csproj", "{4D4BA3BF-AB91-491D-9A2F-38695808952C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -591,6 +593,10 @@ Global
 		{17E5FDC3-EBAA-476C-BAB4-77341BC601E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17E5FDC3-EBAA-476C-BAB4-77341BC601E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17E5FDC3-EBAA-476C-BAB4-77341BC601E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4BA3BF-AB91-491D-9A2F-38695808952C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4BA3BF-AB91-491D-9A2F-38695808952C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4BA3BF-AB91-491D-9A2F-38695808952C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4BA3BF-AB91-491D-9A2F-38695808952C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -692,6 +698,7 @@ Global
 		{8B740FC2-5B9D-481F-AE0E-38E7D08DD371} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{8BAEF59C-3260-418B-825E-6512B4939474} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{17E5FDC3-EBAA-476C-BAB4-77341BC601E6} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
+		{4D4BA3BF-AB91-491D-9A2F-38695808952C} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6068656C-6ABA-45F1-B3C4-F37DCA05C2CD}
