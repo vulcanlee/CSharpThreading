@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>MT095Task.WhenAll_等候所有工作_Task_物件完成執行</RootNamespace>
+  </PropertyGroup>
+
+</Project>
