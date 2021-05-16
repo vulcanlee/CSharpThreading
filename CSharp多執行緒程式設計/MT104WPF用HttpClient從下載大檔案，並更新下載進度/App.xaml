@@ -1,0 +1,9 @@
+﻿<Application x:Class="MT104WPF用HttpClient從下載大檔案_並更新下載進度.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MT104WPF用HttpClient從下載大檔案_並更新下載進度"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

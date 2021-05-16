@@ -105,7 +105,7 @@
 |MT101|使用 CancellationTokenSource 取消 HttpClient 網路存取練習||
 |MT102|CreateLinkedTokenSource 來組合兩個 CancellationToken||
 |MT103|Console用HttpClient從下載大檔案，並更新下載進度||
-|MT104|||
+|MT104|WPF用HttpClient從下載大檔案，並更新下載進度||
 |MT105|||
 |MT106|||
 |MT107|||

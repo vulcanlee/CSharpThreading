@@ -213,6 +213,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT102CreateLinkedTokenSourc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT103Console用HttpClient從下載大檔案，並更新下載進度", "MT103Console用HttpClient從下載大檔案，並更新下載進度\MT103Console用HttpClient從下載大檔案，並更新下載進度.csproj", "{59B1E961-6A87-4EE0-B63A-77477ABE4541}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT104WPF用HttpClient從下載大檔案，並更新下載進度", "MT104WPF用HttpClient從下載大檔案，並更新下載進度\MT104WPF用HttpClient從下載大檔案，並更新下載進度.csproj", "{208338B0-F085-45CB-8327-D52A45362B34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -627,6 +629,10 @@ Global
 		{59B1E961-6A87-4EE0-B63A-77477ABE4541}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59B1E961-6A87-4EE0-B63A-77477ABE4541}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59B1E961-6A87-4EE0-B63A-77477ABE4541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208338B0-F085-45CB-8327-D52A45362B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208338B0-F085-45CB-8327-D52A45362B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208338B0-F085-45CB-8327-D52A45362B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208338B0-F085-45CB-8327-D52A45362B34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -734,6 +740,7 @@ Global
 		{1B3C5247-8E87-48EE-B563-48207D3B6499} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{2B172B35-2E40-4E2D-AC1E-FF73ED71A7A6} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{59B1E961-6A87-4EE0-B63A-77477ABE4541} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
+		{208338B0-F085-45CB-8327-D52A45362B34} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6068656C-6ABA-45F1-B3C4-F37DCA05C2CD}
