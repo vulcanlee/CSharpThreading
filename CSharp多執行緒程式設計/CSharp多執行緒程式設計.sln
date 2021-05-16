@@ -205,6 +205,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT097同時呼叫多個WebA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT099使用 ContinueWith 方法，來接續不同工作狀態並執行相關處理", "MT099使用 ContinueWith 方法，來接續不同工作狀態並執行相關處理\MT099使用 ContinueWith 方法，來接續不同工作狀態並執行相關處理.csproj", "{209CD051-E01F-44F5-85B1-316761D3B98F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT100CancellationTokenSource 與 CancellationToken 的設計練習", "MT100CancellationTokenSource 與 CancellationToken 的設計練習\MT100CancellationTokenSource 與 CancellationToken 的設計練習.csproj", "{DCEAE8B6-2FCA-421F-85D6-41414C724AFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -603,6 +605,10 @@ Global
 		{209CD051-E01F-44F5-85B1-316761D3B98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{209CD051-E01F-44F5-85B1-316761D3B98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{209CD051-E01F-44F5-85B1-316761D3B98F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCEAE8B6-2FCA-421F-85D6-41414C724AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCEAE8B6-2FCA-421F-85D6-41414C724AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCEAE8B6-2FCA-421F-85D6-41414C724AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCEAE8B6-2FCA-421F-85D6-41414C724AFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -706,6 +712,7 @@ Global
 		{17E5FDC3-EBAA-476C-BAB4-77341BC601E6} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{4D4BA3BF-AB91-491D-9A2F-38695808952C} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{209CD051-E01F-44F5-85B1-316761D3B98F} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
+		{DCEAE8B6-2FCA-421F-85D6-41414C724AFC} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6068656C-6ABA-45F1-B3C4-F37DCA05C2CD}
