@@ -217,6 +217,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT104WPF用HttpClient從下
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT105所有工作都執行結束，檢查是否有執行失敗的工作", "MT105所有工作都執行結束，檢查是否有執行失敗的工作\MT105所有工作都執行結束，檢查是否有執行失敗的工作.csproj", "{1DF60F19-BC3A-45DA-AD4F-7FB11360DC48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT106了解各種非同步作業中對於例外異常會產生何種情況", "MT106了解各種非同步作業中對於例外異常會產生何種情況\MT106了解各種非同步作業中對於例外異常會產生何種情況.csproj", "{B6F41031-AD0B-402C-BBF6-D06FC9EB660E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -639,6 +641,10 @@ Global
 		{1DF60F19-BC3A-45DA-AD4F-7FB11360DC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DF60F19-BC3A-45DA-AD4F-7FB11360DC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DF60F19-BC3A-45DA-AD4F-7FB11360DC48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F41031-AD0B-402C-BBF6-D06FC9EB660E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F41031-AD0B-402C-BBF6-D06FC9EB660E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F41031-AD0B-402C-BBF6-D06FC9EB660E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F41031-AD0B-402C-BBF6-D06FC9EB660E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -748,6 +754,7 @@ Global
 		{59B1E961-6A87-4EE0-B63A-77477ABE4541} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{208338B0-F085-45CB-8327-D52A45362B34} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{1DF60F19-BC3A-45DA-AD4F-7FB11360DC48} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
+		{B6F41031-AD0B-402C-BBF6-D06FC9EB660E} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6068656C-6ABA-45F1-B3C4-F37DCA05C2CD}

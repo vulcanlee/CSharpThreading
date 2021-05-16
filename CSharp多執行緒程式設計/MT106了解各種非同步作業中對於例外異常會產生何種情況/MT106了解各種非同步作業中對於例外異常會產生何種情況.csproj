@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="await工作例外異常.cs" />
+    <Compile Remove="await工作取消例外異常.cs" />
+    <Compile Remove="同步程式碼例外異常.cs" />
+    <Compile Remove="執行緒的例外異常.cs" />
+    <Compile Remove="工作WaitAll例外異常.cs" />
+    <Compile Remove="工作WaitAny例外異常.cs" />
+    <Compile Remove="工作Wait例外異常.cs" />
+    <Compile Remove="工作Wait取消例外異常.cs" />
+    <Compile Remove="工作Wait沒有逾期有例外異常.cs" />
+    <Compile Remove="工作Wait逾期沒有例外異常.cs" />
+    <Compile Remove="工作WhenAny例外異常.cs" />
+    <Compile Remove="工作WhentAll例外異常.cs" />
+    <Compile Remove="工作例外異常.cs" />
+    <Compile Remove="工作取消例外異常.cs" />
+    <Compile Remove="工作尚未啟動就發生例外異常.cs" />
+  </ItemGroup>
+
+</Project>
