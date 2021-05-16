@@ -215,6 +215,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT103Console用HttpClient�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT104WPF用HttpClient從下載大檔案，並更新下載進度", "MT104WPF用HttpClient從下載大檔案，並更新下載進度\MT104WPF用HttpClient從下載大檔案，並更新下載進度.csproj", "{208338B0-F085-45CB-8327-D52A45362B34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT105所有工作都執行結束，檢查是否有執行失敗的工作", "MT105所有工作都執行結束，檢查是否有執行失敗的工作\MT105所有工作都執行結束，檢查是否有執行失敗的工作.csproj", "{1DF60F19-BC3A-45DA-AD4F-7FB11360DC48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -633,6 +635,10 @@ Global
 		{208338B0-F085-45CB-8327-D52A45362B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{208338B0-F085-45CB-8327-D52A45362B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{208338B0-F085-45CB-8327-D52A45362B34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF60F19-BC3A-45DA-AD4F-7FB11360DC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF60F19-BC3A-45DA-AD4F-7FB11360DC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF60F19-BC3A-45DA-AD4F-7FB11360DC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF60F19-BC3A-45DA-AD4F-7FB11360DC48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -741,6 +747,7 @@ Global
 		{2B172B35-2E40-4E2D-AC1E-FF73ED71A7A6} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{59B1E961-6A87-4EE0-B63A-77477ABE4541} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{208338B0-F085-45CB-8327-D52A45362B34} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
+		{1DF60F19-BC3A-45DA-AD4F-7FB11360DC48} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6068656C-6ABA-45F1-B3C4-F37DCA05C2CD}

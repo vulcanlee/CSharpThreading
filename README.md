@@ -106,7 +106,7 @@
 |MT102|CreateLinkedTokenSource 來組合兩個 CancellationToken||
 |MT103|Console用HttpClient從下載大檔案，並更新下載進度||
 |MT104|WPF用HttpClient從下載大檔案，並更新下載進度||
-|MT105|||
+|MT105|所有工作都執行結束，檢查是否有執行失敗的工作||
 |MT106|||
 |MT107|||
 |MT108|||
