@@ -201,7 +201,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT095Task.WhenAll，等候�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT096Task.WhenAny，等候任一工作 Task 物件完成執行", "MT096Task.WhenAny，等候任一工作 Task 物件完成執行\MT096Task.WhenAny，等候任一工作 Task 物件完成執行.csproj", "{17E5FDC3-EBAA-476C-BAB4-77341BC601E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT097同時呼叫多個WebAPI並取得計算結果練習-WhenAll", "MT097同時呼叫多個WebAPI並取得計算結果練習-WhenAll\MT097同時呼叫多個WebAPI並取得計算結果練習-WhenAll.csproj", "{4D4BA3BF-AB91-491D-9A2F-38695808952C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT097同時呼叫多個WebAPI並取得計算結果練習-WhenAll", "MT097同時呼叫多個WebAPI並取得計算結果練習-WhenAll\MT097同時呼叫多個WebAPI並取得計算結果練習-WhenAll.csproj", "{4D4BA3BF-AB91-491D-9A2F-38695808952C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT099使用 ContinueWith 方法，來接續不同工作狀態並執行相關處理", "MT099使用 ContinueWith 方法，來接續不同工作狀態並執行相關處理\MT099使用 ContinueWith 方法，來接續不同工作狀態並執行相關處理.csproj", "{209CD051-E01F-44F5-85B1-316761D3B98F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -597,6 +599,10 @@ Global
 		{4D4BA3BF-AB91-491D-9A2F-38695808952C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D4BA3BF-AB91-491D-9A2F-38695808952C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D4BA3BF-AB91-491D-9A2F-38695808952C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209CD051-E01F-44F5-85B1-316761D3B98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209CD051-E01F-44F5-85B1-316761D3B98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209CD051-E01F-44F5-85B1-316761D3B98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209CD051-E01F-44F5-85B1-316761D3B98F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -699,6 +705,7 @@ Global
 		{8BAEF59C-3260-418B-825E-6512B4939474} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{17E5FDC3-EBAA-476C-BAB4-77341BC601E6} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{4D4BA3BF-AB91-491D-9A2F-38695808952C} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
+		{209CD051-E01F-44F5-85B1-316761D3B98F} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6068656C-6ABA-45F1-B3C4-F37DCA05C2CD}

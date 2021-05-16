@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>MT099使用_ContinueWith_方法_來接續不同工作狀態並執行相關處理</RootNamespace>
+  </PropertyGroup>
+
+</Project>
