@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>MT101使用_CancellationTokenSource_取消_HttpClient_網路存取練習</RootNamespace>
+  </PropertyGroup>
+
+</Project>

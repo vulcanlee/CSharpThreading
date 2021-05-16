@@ -11,6 +11,7 @@ namespace MT100CancellationTokenSource_與_CancellationToken_的設計練習
             CancellationTokenSource cts = new CancellationTokenSource();
 
             #region 等候使用者輸入 取消 c 按鍵
+            Console.WriteLine($"若在10秒鐘內，按下 c 按鍵，則會取消此次非同步存取");
             ThreadPool.QueueUserWorkItem(x =>
             {
                 ConsoleKeyInfo key = Console.ReadKey();
