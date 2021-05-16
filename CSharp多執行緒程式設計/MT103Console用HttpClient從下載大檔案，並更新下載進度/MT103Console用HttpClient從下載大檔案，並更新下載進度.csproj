@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>MT103Console用HttpClient從下載大檔案_並更新下載進度</RootNamespace>
+  </PropertyGroup>
+
+</Project>
