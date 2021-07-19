@@ -203,23 +203,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT096Task.WhenAny，等候�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT097同時呼叫多個WebAPI並取得計算結果練習-WhenAll", "MT097同時呼叫多個WebAPI並取得計算結果練習-WhenAll\MT097同時呼叫多個WebAPI並取得計算結果練習-WhenAll.csproj", "{4D4BA3BF-AB91-491D-9A2F-38695808952C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT099使用 ContinueWith 方法，來接續不同工作狀態並執行相關處理", "MT099使用 ContinueWith 方法，來接續不同工作狀態並執行相關處理\MT099使用 ContinueWith 方法，來接續不同工作狀態並執行相關處理.csproj", "{209CD051-E01F-44F5-85B1-316761D3B98F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT099使用 ContinueWith 方法，來接續不同工作狀態並執行相關處理", "MT099使用 ContinueWith 方法，來接續不同工作狀態並執行相關處理\MT099使用 ContinueWith 方法，來接續不同工作狀態並執行相關處理.csproj", "{209CD051-E01F-44F5-85B1-316761D3B98F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT100CancellationTokenSource 與 CancellationToken 的設計練習", "MT100CancellationTokenSource 與 CancellationToken 的設計練習\MT100CancellationTokenSource 與 CancellationToken 的設計練習.csproj", "{DCEAE8B6-2FCA-421F-85D6-41414C724AFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT100CancellationTokenSource 與 CancellationToken 的設計練習", "MT100CancellationTokenSource 與 CancellationToken 的設計練習\MT100CancellationTokenSource 與 CancellationToken 的設計練習.csproj", "{DCEAE8B6-2FCA-421F-85D6-41414C724AFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT101使用 CancellationTokenSource 取消 HttpClient 網路存取練習", "MT101使用 CancellationTokenSource 取消 HttpClient 網路存取練習\MT101使用 CancellationTokenSource 取消 HttpClient 網路存取練習.csproj", "{1B3C5247-8E87-48EE-B563-48207D3B6499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT101使用 CancellationTokenSource 取消 HttpClient 網路存取練習", "MT101使用 CancellationTokenSource 取消 HttpClient 網路存取練習\MT101使用 CancellationTokenSource 取消 HttpClient 網路存取練習.csproj", "{1B3C5247-8E87-48EE-B563-48207D3B6499}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT102CreateLinkedTokenSource 來組合兩個 CancellationToken", "MT102CreateLinkedTokenSource 來組合兩個 CancellationToken\MT102CreateLinkedTokenSource 來組合兩個 CancellationToken.csproj", "{2B172B35-2E40-4E2D-AC1E-FF73ED71A7A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT102CreateLinkedTokenSource 來組合兩個 CancellationToken", "MT102CreateLinkedTokenSource 來組合兩個 CancellationToken\MT102CreateLinkedTokenSource 來組合兩個 CancellationToken.csproj", "{2B172B35-2E40-4E2D-AC1E-FF73ED71A7A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT103Console用HttpClient從下載大檔案，並更新下載進度", "MT103Console用HttpClient從下載大檔案，並更新下載進度\MT103Console用HttpClient從下載大檔案，並更新下載進度.csproj", "{59B1E961-6A87-4EE0-B63A-77477ABE4541}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT103Console用HttpClient從下載大檔案，並更新下載進度", "MT103Console用HttpClient從下載大檔案，並更新下載進度\MT103Console用HttpClient從下載大檔案，並更新下載進度.csproj", "{59B1E961-6A87-4EE0-B63A-77477ABE4541}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT104WPF用HttpClient從下載大檔案，並更新下載進度", "MT104WPF用HttpClient從下載大檔案，並更新下載進度\MT104WPF用HttpClient從下載大檔案，並更新下載進度.csproj", "{208338B0-F085-45CB-8327-D52A45362B34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT105所有工作都執行結束，檢查是否有執行失敗的工作", "MT105所有工作都執行結束，檢查是否有執行失敗的工作\MT105所有工作都執行結束，檢查是否有執行失敗的工作.csproj", "{1DF60F19-BC3A-45DA-AD4F-7FB11360DC48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT105所有工作都執行結束，檢查是否有執行失敗的工作", "MT105所有工作都執行結束，檢查是否有執行失敗的工作\MT105所有工作都執行結束，檢查是否有執行失敗的工作.csproj", "{1DF60F19-BC3A-45DA-AD4F-7FB11360DC48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT106了解各種非同步作業中對於例外異常會產生何種情況", "MT106了解各種非同步作業中對於例外異常會產生何種情況\MT106了解各種非同步作業中對於例外異常會產生何種情況.csproj", "{B6F41031-AD0B-402C-BBF6-D06FC9EB660E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT106了解各種非同步作業中對於例外異常會產生何種情況", "MT106了解各種非同步作業中對於例外異常會產生何種情況\MT106了解各種非同步作業中對於例外異常會產生何種情況.csproj", "{B6F41031-AD0B-402C-BBF6-D06FC9EB660E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT107使用 TaskCompletionSource 類別 建立工作", "MT107使用 TaskCompletionSource 類別 建立工作\MT107使用 TaskCompletionSource 類別 建立工作.csproj", "{D77955A7-39D9-482E-9F82-A326A71812AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MT107使用 TaskCompletionSource 類別 建立工作", "MT107使用 TaskCompletionSource 類別 建立工作\MT107使用 TaskCompletionSource 類別 建立工作.csproj", "{D77955A7-39D9-482E-9F82-A326A71812AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT108客製化SynchronizationContext", "MT108客製化SynchronizationContext\MT108客製化SynchronizationContext.csproj", "{0507FFEB-66EB-4BF3-97B0-7274316B227A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -651,6 +653,10 @@ Global
 		{D77955A7-39D9-482E-9F82-A326A71812AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D77955A7-39D9-482E-9F82-A326A71812AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D77955A7-39D9-482E-9F82-A326A71812AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0507FFEB-66EB-4BF3-97B0-7274316B227A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0507FFEB-66EB-4BF3-97B0-7274316B227A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0507FFEB-66EB-4BF3-97B0-7274316B227A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0507FFEB-66EB-4BF3-97B0-7274316B227A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -762,6 +768,7 @@ Global
 		{1DF60F19-BC3A-45DA-AD4F-7FB11360DC48} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{B6F41031-AD0B-402C-BBF6-D06FC9EB660E} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
 		{D77955A7-39D9-482E-9F82-A326A71812AC} = {7ED65CC7-0BFA-44BF-95D2-D35952E878BF}
+		{0507FFEB-66EB-4BF3-97B0-7274316B227A} = {FD43BBB5-01EB-48E4-88F8-821E880459A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6068656C-6ABA-45F1-B3C4-F37DCA05C2CD}
